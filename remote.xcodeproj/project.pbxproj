@@ -14,6 +14,7 @@
 		B9EBBB021F1FAD8A00C566C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9EBBB001F1FAD8A00C566C7 /* LaunchScreen.storyboard */; };
 		B9EBBB0D1F1FAD8A00C566C7 /* remoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EBBB0C1F1FAD8A00C566C7 /* remoteTests.swift */; };
 		B9EBBB181F1FAD8A00C566C7 /* remoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EBBB171F1FAD8A00C566C7 /* remoteUITests.swift */; };
+		B9EBBB281F1FC64C00C566C7 /* ChronoWebMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9EBBB271F1FC64C00C566C7 /* ChronoWebMedium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B9EBBB131F1FAD8A00C566C7 /* remoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = remoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9EBBB171F1FAD8A00C566C7 /* remoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remoteUITests.swift; sourceTree = "<group>"; };
 		B9EBBB191F1FAD8A00C566C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9EBBB271F1FC64C00C566C7 /* ChronoWebMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ChronoWebMedium.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		B9EBBAEB1F1FAD8A00C566C7 = {
 			isa = PBXGroup;
 			children = (
+				B9EBBB291F1FC65700C566C7 /* resources */,
 				B9EBBAF61F1FAD8A00C566C7 /* remote */,
 				B9EBBB0B1F1FAD8A00C566C7 /* remoteTests */,
 				B9EBBB161F1FAD8A00C566C7 /* remoteUITests */,
@@ -123,6 +126,14 @@
 				B9EBBB191F1FAD8A00C566C7 /* Info.plist */,
 			);
 			path = remoteUITests;
+			sourceTree = "<group>";
+		};
+		B9EBBB291F1FC65700C566C7 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				B9EBBB271F1FC64C00C566C7 /* ChronoWebMedium.ttf */,
+			);
+			name = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +246,7 @@
 				B9EBBB021F1FAD8A00C566C7 /* LaunchScreen.storyboard in Resources */,
 				B9EBBAFF1F1FAD8A00C566C7 /* Assets.xcassets in Resources */,
 				B9EBBAFD1F1FAD8A00C566C7 /* Main.storyboard in Resources */,
+				B9EBBB281F1FC64C00C566C7 /* ChronoWebMedium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
